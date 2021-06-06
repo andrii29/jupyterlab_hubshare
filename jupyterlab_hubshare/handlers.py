@@ -108,7 +108,7 @@ class PreviewHandler(BaseMixin, IPythonHandler):
 
 def setup_handlers(web_app):
     host_pattern = ".*$"
-    base_url = url_path_join(web_app.settings["base_url"], "jupyterlab_hubshare")
+    base_url = url_path_join(web_app.settings["base_url"], "user/andrew.k/jupyterlab_hubshare")
     route_to_handler = {
         "share-url": ShareURLHandler,
         "content": ContentHandler,
