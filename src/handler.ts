@@ -17,7 +17,7 @@ export async function requestAPI<T>(
   const settings = ServerConnection.makeSettings();
   const requestUrl = URLExt.join(
     settings.baseUrl,
-    'jupyterlab_hubshare', // API Namespace
+    'user/andrew.k/jupyterlab_hubshare', // API Namespace
     endPoint
   );
 
